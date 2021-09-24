@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Match Stats";
+}
+
+<h1>Game Details</h1>
+
+<h2>Match Information</h2>
+
+<dl id="match-summary" class="dl-horizontal"></dl>
+
+<h2>Player Stats</h2>
+
+<dl id="match-player-stats" class="dl-horizontal"></dl>
+
+@section Scripts {
+    @if (@ViewBag.JWT != null)
+    {
+        <script type="text/javascript">
+            localStorage.setItem("accessToken", "@ViewBag.JWT.access_token");
+            localStorage.setItem("refreshToken", "@ViewBag.JWT.refresh_token");
+        </script>
+    }
+
+    <script type="text/javascript" src="~/js/views/match.js"></script>
+}
+
