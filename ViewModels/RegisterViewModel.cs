@@ -1,6 +1,6 @@
-﻿using CSGSIWebClient.Models;
-using CSGSIWebClient.Utilities;
-using CSGSIWebClient.Validators;
+﻿using CSGSIWebClientDemo.Models;
+using CSGSIWebClientDemo.Utilities;
+using CSGSIWebClientDemo.Validators;
 //using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CSGSIWebClient.ViewModels
+namespace CSGSIWebClientDemo.ViewModels
 {
     public class RegisterViewModel
     {

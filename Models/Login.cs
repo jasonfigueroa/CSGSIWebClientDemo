@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CSGSIWebClient.Models
+namespace CSGSIWebClientDemo.Models
 {
     public class Login
     {

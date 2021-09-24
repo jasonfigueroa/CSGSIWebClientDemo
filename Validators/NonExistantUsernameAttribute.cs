@@ -1,12 +1,12 @@
-﻿using CSGSIWebClient.Data;
-using CSGSIWebClient.Models;
+﻿using CSGSIWebClientDemo.Data;
+using CSGSIWebClientDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CSGSIWebClient.Validators
+namespace CSGSIWebClientDemo.Validators
 {
     public class NonExistantUsernameAttribute : ValidationAttribute
     {

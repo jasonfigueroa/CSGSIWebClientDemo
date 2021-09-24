@@ -4,11 +4,11 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using CSGSIWebClient.Models;
+using CSGSIWebClientDemo.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using CSGSIWebClient.Data;
+using CSGSIWebClientDemo.Data;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace CSGSIWebClient.Controllers
+namespace CSGSIWebClientDemo.Controllers
 {
     public class LoginController : Controller
     {

@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using CSGSIWebClient.Data;
-using CSGSIWebClient.Models;
-using CSGSIWebClient.ViewModels;
+using CSGSIWebClientDemo.Data;
+using CSGSIWebClientDemo.Models;
+using CSGSIWebClientDemo.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace CSGSIWebClient.Controllers
+namespace CSGSIWebClientDemo.Controllers
 {
     public class RegisterController : Controller
     {

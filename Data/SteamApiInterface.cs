@@ -1,5 +1,5 @@
-﻿using CSGSIWebClient.Controllers;
-using CSGSIWebClient.Models;
+﻿using CSGSIWebClientDemo.Controllers;
+using CSGSIWebClientDemo.Models;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace CSGSIWebClient.Data
+namespace CSGSIWebClientDemo.Data
 {
     public class SteamApiInterface
     {

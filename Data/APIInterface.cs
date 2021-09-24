@@ -1,5 +1,5 @@
-﻿using CSGSIWebClient.Models;
-using CSGSIWebClient.ViewModels;
+﻿using CSGSIWebClientDemo.Models;
+using CSGSIWebClientDemo.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
 using System;
@@ -9,7 +9,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSGSIWebClient.Data
+namespace CSGSIWebClientDemo.Data
 {
     public class APIInterface
     {

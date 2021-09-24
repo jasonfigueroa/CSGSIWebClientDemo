@@ -1,13 +1,13 @@
-﻿using CSGSIWebClient.Data;
-using CSGSIWebClient.Models;
-using CSGSIWebClient.ViewModels;
+﻿using CSGSIWebClientDemo.Data;
+using CSGSIWebClientDemo.Models;
+using CSGSIWebClientDemo.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CSGSIWebClient.Validators
+namespace CSGSIWebClientDemo.Validators
 {
     public class ExistingUsernameAttribute : ValidationAttribute
     {
