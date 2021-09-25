@@ -1,12 +1,13 @@
 ﻿@{
     ViewBag.Title = "Profile";
+    SteamPlayer steamPlayer = SteamApiInterface.GetSteamPlayers(new SteamId { steam_id = "76561197994895226" })[0];
 }
 
 <div id="profile-div">
     <div id="profile-steam-div">
-        <h1>@SteamApiInterface.GetSteamPlayers(new SteamId { steam_id = User.Identity.Name })[0].personaname</h1>
+        <h1>@steamPlayer.personaname</h1>
 
-        <img src="@SteamApiInterface.GetSteamPlayers(new SteamId { steam_id = User.Identity.Name})[0].avatarfull" />
+        <img src="@steamPlayer.avatarfull" />
     </div>
 
     <div id="profile-summary-div">
@@ -29,12 +30,5 @@
 </div>
 
 @section Scripts {
-    @if (@ViewBag.JWT != null)
-    {
-        <script type="text/javascript">
-            localStorage.setItem("accessToken", "@ViewBag.JWT.access_token");
-            localStorage.setItem("refreshToken", "@ViewBag.JWT.refresh_token");
-        </script>
-    }
     <script type="text/javascript" src="~/js/views/profile.js"></script>
 }

@@ -47,18 +47,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="GettingStarted" asp-action="Index">Getting Started</a></li>
-                    <li><a asp-area="" asp-controller="About" asp-action="Index">About</a></li>
-                    <li><a asp-area="" asp-controller="TechnicalDetails" asp-action="Index">Technical Details</a></li>
-                    @if (User.Identity.IsAuthenticated)
-                    {
                         <li><a asp-area="" asp-controller="Matches" asp-action="Index">Stats</a></li>
-                        <li><a
-                            href="https://csgsistattrakr.jasonfigueroa.io/downloads/setup_CSGSI_Stat_Trakr.msi">Download</a>
-                        </li>
-                        @*<li><a
-                            href="https://csgostattrakr.jasonfigueroa.io/downloads/setup_CSGO_Stat_Trakr.msi">Download</a></li>*@
-                    }
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
             </div>
@@ -66,9 +55,7 @@
     </nav>
 
     <div class="container content-body">
-        <div class="row">
-            @RenderBody()
-        </div>
+        @RenderBody()
     </div>
 
     <environment include="Development">

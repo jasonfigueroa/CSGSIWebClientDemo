@@ -1,13 +1,14 @@
 ﻿@{
     ViewBag.Title = "Welcome";
 }
-<div class="center-text col-md-8 col-md-offset-2">
-    <h1 class="cover-heading">Welcome to CSGSI Stat Trakr</h1>
-    <p class="lead">CSGSI Stat Trakr is the go to tool for stepping up your Counter Strike game! Dont' get salty, get CSGSI Stat Trakr!</p>
-    @if (!User.Identity.IsAuthenticated)
-    {
-        <p class="lead">
-            <a asp-controller="Register" asp-action="Index" class="btn btn-lg btn-default">Register</a>
-        </p>
-    }
+
+<div>
+    <h1>Welcome to the Demo site</h1>
+    <p>This site gives you access to the two links available to users once they register.</p>
+    <h2>Stats</h2>
+    <p>The Stats link takes you to a list of the player's matches in tabular form. Clicking on a row of the table will take you to a more detailed view of the player's stats for that match.</p>
+    <h2>Profile</h2>
+    <p>This link is on the top right, just to the right of the player's avatar. Clicking on it will take you to the player's profile where you can see an overview of the player's data, as well as some graphs to help visualize the data.</p>
+    <p>At any time you can click on the Exit Demo link at the top right to go back to the main site.</p>
+    <p><strong>Thank you for checking out the Demo site!</strong></p>
 </div>

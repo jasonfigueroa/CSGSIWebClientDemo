@@ -324,5 +324,5 @@ fontawesome-all.min.css
 temp
 *.db
 production-notes
-CSGSIWebClientDemo/wwwroot/lib/*
+wwwroot/lib/*
 CSGSIWebClientDemo.SeleniumTests/credentials.txt
