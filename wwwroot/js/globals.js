@@ -1,5 +1,5 @@
 const baseUrl = "http://localhost:5000";
-const apiUrl = "http://localhost:3000";
+const apiUrl = "https://csgsidemoapi.jasonfigueroa.io";
 
 const secret = "Secret Passphrase";
 

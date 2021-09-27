@@ -13,7 +13,7 @@ namespace CSGSIWebClientDemo.Data
 {
     public class APIInterface
     {
-        private static string _apiUrl = "http://localhost:3000";
+        private static string _apiUrl = "https://csgsidemoapi.jasonfigueroa.io";
 
         public static bool IsValidUser(User user)
         {
